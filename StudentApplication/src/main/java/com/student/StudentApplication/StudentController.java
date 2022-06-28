@@ -12,7 +12,7 @@ public class StudentController {
 	@GetMapping("/getData")
 	public String getData(@RequestParam String name) 
 	{
-		return "welcome to login page == "+name;
+		return ("welcome to login page == "+name);
 	}
 	
 }
